@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我们的爱情故事</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #FFF5E1;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #FFDAB9;
+            padding: 20px;
+            font-size: 2em;
+            font-family: 'Brush Script MT', cursive;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        .photos {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .photo {
+            margin: 10px;
+            transition: transform 0.3s;
+        }
+        .photo img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .photo:hover {
+            transform: scale(1.05);
+        }
+        .calendar {
+            max-width: 300px;
+            margin: 20px auto;
+        }
+        .date {
+            padding: 10px;
+            margin: 5px;
+            background-color: #FFE4B5;
+            border-radius: 5px;
+        }
+        .date input {
+            border: none;
+            background: none;
+            font-size: 1em;
+        }
+        footer {
+            background-color: #FFDAB9;
+            padding: 10px;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        我们的爱情故事
+    </header>
+
+    <section id="personal-info">
+        <h2>个人信息</h2>
+        <p><strong>我:</strong> [你的名字]</p>
+        <p><strong>她:</strong> [她的名字]</p>
+        <p><strong>我们的喜好:</strong> [你们的喜好]</p>
+    </section>
+
+    <section id="love-story">
+        <h2>恋爱故事</h2>
+        <p><strong>初识时间:</strong> [初识时间]</p>
+        <p><strong>相爱时间:</strong> [相爱时间]</p>
+        <h3>我们的每一个第一次</h3>
+        <ul>
+            <li>第一次约会: [第一次约会的描述]</li>
+            <li>第一次旅行: [第一次旅行的描述]</li>
+            <li>其他重要时刻: [其他重要时刻的描述]</li>
+        </ul>
+    </section>
+
+    <section id="photos">
+        <h2>照片展示</h2>
+        <div class="photos">
+            <!-- 添加照片 -->
+            <div class="photo">
+                <img src="photo1.jpg" alt="我们的照片1">
+            </div>
+            <div class="photo">
+                <img src="photo2.jpg" alt="我们的照片2">
+            </div>
+            <!-- 更多照片 -->
+        </div>
+    </section>
+
+    <section id="calendar">
+        <h2>纪念日日历</h2>
+        <div class="calendar">
+            <div class="date">
+                <input type="date">
+                <input type="text" placeholder="纪念日描述">
+            </div>
+            <!-- 更多纪念日 -->
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 我们的爱情故事</p>
+    </footer>
+
+    <script>
+        // 可以在这里添加JavaScript代码以实现更多交互效果
+    </script>
+</body>
+</html>
